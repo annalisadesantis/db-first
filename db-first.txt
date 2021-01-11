@@ -20,5 +20,5 @@ colore				varchar(100)	null
 data_ultimo_tagliando		date		null
 data_ultima_revisione		date		null
 condizioni_veicolo		varchar(200)	null
-disponibilità			tinyint		null/default(1)
+disponibilita			tinyint		null/default(1)
 note				text		null
