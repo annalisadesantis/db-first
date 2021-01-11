@@ -8,14 +8,14 @@ euro				tinyint		null
 cilindrata			smallint	notnull
 carburante			varchar(60)	notnull
 cavalli				smallint	null
-prezzo				double(9,2)	null
+prezzo				decimal(9,2)	null
 garanzia			tinyint		null
 tipo_veicolo			varchar(60)	null
-targa				varchar(60)	notnull/unique/index
+targa				varchar(20)	notnull/unique/index
 telaio				varchar(20)	notnull/unique
 posti				tinyint		null
 porte				tinyint		null
-cambio				varchar(60)	notnull
+cambio				varchar(20)	notnull
 colore				varchar(100)	null
 data_ultimo_tagliando		date		null
 data_ultima_revisione		date		null
